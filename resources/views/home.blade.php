@@ -28,9 +28,15 @@ San Pablo was part of the Roman Catholic Archdiocese of Lipa since 1910. On Nove
      Fill Up Forms
    </button>
    <div class="dropdown-menu">
+<<<<<<< HEAD
      <a class="dropdown-item" href="#">BUSINESS PERMIT APPLICATION</a>
      <a class="dropdown-item" href="#">BUSINESS PERMIT APPLICATION</a>
      <a class="dropdown-item" href="#">BUSINESS PERMIT APPLICATION</a>
+=======
+     <a class="dropdown-item" href="#">Business Registration Form</a>
+     <a class="dropdown-item" href="#">Building Permit Form</a>
+     {{-- <a class="dropdown-item" href="#">Link 3</a> --}}
+>>>>>>> 1bf7e600a04f6510815dab8a1cdb7aaf5e9135ef
    </div>
   </div>
   @parent

@@ -10,8 +10,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   </head>
   <body>
-    @include('inc.navbar')
-
+    <div>
+      @include('inc.navbar')
+    </div>
+    <div>
+      @include('inc.carousel')
+    </div>
     <div class="container">
     @if (Request::is('form'))
       @include('inc.showcase')

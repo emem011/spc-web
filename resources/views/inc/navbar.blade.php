@@ -7,6 +7,7 @@
   </button>
   <div class='collapse navbar-collapse' id='collapseNav'>
     <ul class="navbar-nav">
+      <img src="{{URL::asset('image/spc-logo.png')}}" alt="Logo" height="50px" width="50px">
       <li class="nav-item">
         <a class="nav-link" href="/">SPC Home</a>
       </li>
