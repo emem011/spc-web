@@ -7,9 +7,17 @@
   background: #3490DC;
 }
 
+.navbar-custom {
+    background-color: #ffff;
+}
+
 .navbar-nav{
   font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
 }
+
 
 #search{
   position: absolute;
@@ -21,12 +29,4 @@
   position: absolute;
   right: 0px;
   padding: 5px;
-}
-
-.dropdown{
-
-}
-
-.dropdown-toggle{
-
 }
