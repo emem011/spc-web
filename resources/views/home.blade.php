@@ -10,9 +10,9 @@
      Fill Up Forms
    </button>
    <div class="dropdown-menu">
-     <a class="dropdown-item" href="#">Link 1</a>
-     <a class="dropdown-item" href="#">Link 2</a>
-     <a class="dropdown-item" href="#">Link 3</a>
+     <a class="dropdown-item" href="#">Business Registration Form</a>
+     <a class="dropdown-item" href="#">Building Permit Form</a>
+     {{-- <a class="dropdown-item" href="#">Link 3</a> --}}
    </div>
   </div>
   @parent
