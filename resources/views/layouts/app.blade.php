@@ -31,8 +31,9 @@
       </div>
     </div>
 
-    <footer id="footer" class="text-center">
+    {{-- <footer id="footer" class="text-center">
       <p>Copyright 2018 &copy; San Pablo City Government</p>
-    </footer>
+    </footer> --}}
   </body>
+  @include('inc.footer')
 </html>
