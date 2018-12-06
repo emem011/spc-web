@@ -20,7 +20,7 @@
     @if (Request::is('form'))
       @include('inc.showcase')
     @endif
-
+<br>
       <div class="row">
         <div class="col-sm-8 col-lg-8">
         @yield('content')

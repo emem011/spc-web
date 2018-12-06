@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-  <h1>Tourism</h1>
+  <div class="mx-auto bg-warning" style="width:100%">
+    <h1 class="bg-primary text-white">Tourism</h1>
+  </div>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
       minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
