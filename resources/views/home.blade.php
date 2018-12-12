@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+      @include('inc.carousel')
 @section('content')
   <div id="title "class="mx-auto" style="width:100%">
     <h1 class="text-white shadow-lg p-4 mb-4">Home</h1>
@@ -32,11 +32,11 @@
      Fill Up Forms
    </button>
    <div class="dropdown-menu">
-     <a class="dropdown-item" href="{{URL::asset('image/BUSINESS PERMIT APPLICATION FORM.docx')}}" download>Business Registration Form</a>
-     <a class="dropdown-item" href="#">Building Permit Form</a>
+     <a class="dropdown-item" href="{{URL::asset('image/BUSINESS PERMIT APPLICATION FORM.docx')}}" download>Download Business Registration Form</a>
+     <a class="dropdown-item" href="form">Online BPLO Fill Up</a>
      {{-- <a class="dropdown-item" href="#">Link 3</a> --}}
    </div>
   </div>
   @parent
-  <p>This is appended to the sidebar</p>
+  {{-- <p>This is appended to the sidebar</p> --}}
 @endsection

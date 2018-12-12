@@ -15,7 +15,7 @@
       @include('inc.navbar')
     </div>
     <div>
-      @include('inc.carousel')
+
     </div>
     <div class="container">
     @if (Request::is('form'))
