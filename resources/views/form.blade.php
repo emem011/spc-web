@@ -2,7 +2,7 @@
 
 @section('content')
   <h1>Please Fill Out the Form</h1>
-  <form>
+  {!! Form::open(['action' => 'Registration@save', 'method' => 'post']) !!}
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">First</label>
