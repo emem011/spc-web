@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>SPC Website</title>
+    <title>San Pablo City | City Website</title>
     <link rel="icon" href="{!! asset('image/spc-logo.png') !!}"/>
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">

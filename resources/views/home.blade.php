@@ -32,7 +32,7 @@
      Fill Up Forms
    </button>
    <div class="dropdown-menu">
-     <a class="dropdown-item" href="#">Business Registration Form</a>
+     <a class="dropdown-item" href="{{URL::asset('image/BUSINESS PERMIT APPLICATION FORM.docx')}}" download>Business Registration Form</a>
      <a class="dropdown-item" href="#">Building Permit Form</a>
      {{-- <a class="dropdown-item" href="#">Link 3</a> --}}
    </div>
