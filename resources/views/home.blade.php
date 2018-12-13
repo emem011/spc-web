@@ -32,7 +32,7 @@
      Fill Up Forms
    </button>
    <div class="dropdown-menu">
-     <a class="dropdown-item" href="{{URL::asset('image/BUSINESS PERMIT APPLICATION FORM.docx')}}" download>Download Business Registration Form</a>
+     <a class="dropdown-item" href="{{URL::asset('docs/BUSINESS PERMIT APPLICATION FORM.docx')}}" download>Download Business Registration Form</a>
      <a class="dropdown-item" href="form">Online BPLO Fill Up</a>
      {{-- <a class="dropdown-item" href="#">Link 3</a> --}}
    </div>
