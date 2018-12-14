@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-  <h1>City Government of San Pablo</h1>
+  <div class="mx-auto bg-warning" style="width:100%">
+    <h1 class="bg-primary text-white shadow-lg p-4 mb-4">Government</h1>
+  </div>
   <p>Lake Muhikap
 Hacienda Escudero Plantation Resort Town is the largest planned community investment in the city covering 415 hectares. The resort has the richness of cocunut plantation, and provides serenading Filipino songs and Bayanihan Dances (Folk Dances).
 

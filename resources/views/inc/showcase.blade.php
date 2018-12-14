@@ -1,6 +1,6 @@
 <div class="jumbotron text-center">
   <div class="container">
-    <h1>Please fill out the form</h1>
+    <h1>ONLINE BUSINESS PERMIT APPLICATION FORM</h1>
     <p></p>
   </div>
 </div>

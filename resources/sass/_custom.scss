@@ -7,19 +7,32 @@
   background: #3490DC;
 }
 
-.navbar-custom {
-    background-color: #ffff;
+#title{
+  background: #3490DC;
 }
-
-.navbar-nav{
+//navbar
+.navbar{
   font-size: 18px;
   text-decoration: none;
   color: #ffffff;
   font-weight: bold;
+  background: #3490DC;
 }
-.dropdown-menu{
-  border:1px solid black;
+.nav-link{
+  text-decoration: none;
+  color: #ffffff;
 }
+
+//Header
+.text-white{
+  background: #3490DC;
+}
+
+.btn{
+  background: #3490DC;
+  color: #ffffff;
+}
+
 #search{
   position: absolute;
   right: 0px;

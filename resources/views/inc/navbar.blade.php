@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+<nav class="navbar navbar-expand-sm fixed-top" >
 
   {{-- <img src="../img/spc-logo.png" alt="Logo" style="width:40px;"> --}}
   <!-- Links -->

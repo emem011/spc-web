@@ -10475,15 +10475,30 @@ a.text-dark:focus {
   background: #3490DC;
 }
 
-.navbar-custom {
-  background-color: #ffff;
+#title {
+  background: #3490DC;
 }
 
-.navbar-nav {
+.navbar {
   font-size: 18px;
   text-decoration: none;
   color: #ffffff;
   font-weight: bold;
+  background: #3490DC;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.text-white {
+  background: #3490DC;
+}
+
+.btn {
+  background: #3490DC;
+  color: #ffffff;
 }
 
 .dropdown-menu {
