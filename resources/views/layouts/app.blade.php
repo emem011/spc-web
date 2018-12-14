@@ -5,6 +5,7 @@
     <title>San Pablo City | City Website</title>
     <link rel="icon" href="{!! asset('image/spc-logo.png') !!}"/>
     <link rel="stylesheet" href="/css/app.css">
+
 		<script src="/js/app.js"></script>
   </head>
   <body>
