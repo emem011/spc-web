@@ -2,7 +2,73 @@
 
 @section('content')
   <h1>Please Fill Out the Form</h1>
+<<<<<<< HEAD
   {!! Form::open(['action' => 'Register@store', 'method' => 'POST']) !!}
+=======
+  <p>1.	Provide accurate information and print legibly to avoid delays. Incomplete form will be returned to the applicant.<br>
+     2. Ensure that all documents attached to this form (if any) are complete and properly filled out.
+  </p>
+  <p><b>1.	BASIC INFORMATION </b>
+  </p>
+  {!! Form::open(['action' => 'Register@store', 'method' => 'POST']) !!}
+
+  {{-- first row --}}
+  <div class="form-check-inline mb-4">
+    <label class="form-check-label">
+       <input type="radio" class="form-check-input" name="basicnew">New
+    </label>
+  </div>
+  <div class="form-check-inline">
+   <label class="form-check-label">
+     <input type="radio" class="form-check-input" name="basicnew">Renewal
+   </label>
+  </div>
+  <p>Mode of Payment</p>
+    <div class="form-check-inline mb-4">
+      <label class="form-check-label">
+         <input type="radio" class="form-check-input" name="modepayment">Annually
+      </label>
+    </div>
+    <div class="form-check-inline">
+     <label class="form-check-label">
+       <input type="radio" class="form-check-input" name="modepayment">Semi-Annually
+     </label>
+    </div>
+    <div class="form-check-inline disabled">
+     <label class="form-check-label">
+       <input type="radio" class="form-check-input" name="modepayment">Quarterly
+     </label>
+    </div>
+
+    {{-- second row --}}
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="example-date-input">Date Application</label>
+        <input class="form-control" type="date" value="2019-01-01" id="example-date-input">
+      </div>
+      <div class="form-group col-md-6">
+        <label for='fname'>TIN no.
+        </label>
+        <input type="text" class="form-control" name="tin">
+      </div>
+      </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for='fname'>DTI/SEC/CDA Registration
+        </label>
+        <input type="text" class="form-control" name="fname">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="lname">DTI/SEC/CDA Registration
+        </label>
+        <input type="text" class="form-control" name="lname">
+      </div>
+    </div>
+
+
+
+>>>>>>> 15d4c7a1ad975747854a7941cdcb07d9d3a69501
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for='fname'>First Name</label>
@@ -84,5 +150,6 @@
     </div>
   <button type="submit" class="btn btn-primary mt-4">Print</button>
 </form>
+</div>
   {!! Form::close() !!}
 @endsection
