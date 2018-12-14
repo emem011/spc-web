@@ -46,5 +46,5 @@ Route::get('/tourism', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+Route::post('register', array('uses' => 'Register@store'));
 
-Route::post('/form', 'Registration@save');

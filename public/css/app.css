@@ -10506,7 +10506,7 @@ a.text-dark:focus {
 }
 
 #search {
-  position: absolute;
+  position: relative;
   right: 0px;
   padding: 15px;
 }
