@@ -23,6 +23,7 @@ class CreateRegistrtion extends Migration
           $table->string('province');
           $table->string('zip_code');
           $table->string('business_type');
+					$table->timestamps();
       });
     }
 

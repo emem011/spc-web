@@ -47,4 +47,4 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
-Route::post('/form', 'Registration@save');
+Route::post('register', array('uses' => 'Register@store'));
