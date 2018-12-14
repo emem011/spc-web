@@ -10501,8 +10501,12 @@ a.text-dark:focus {
   color: #ffffff;
 }
 
+.dropdown-menu {
+  border: 1px solid black;
+}
+
 #search {
-  position: absolute;
+  position: relative;
   right: 0px;
   padding: 15px;
 }

@@ -29,6 +29,32 @@
     <div class="form-group col-md-4">
       <label for="state">Province</label>
       <select name="state" class="form-control">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">First</label>
+      <input type="text" class="form-control" id="fname" placeholder="First Name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Last Name</label>
+      <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Email Adress</label>
+    <input type="email" class="form-control" id="inputAddress" placeholder="example@email.com">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Bldg#/Street/Brgy/City/Province">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="City">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Province</label>
+      <select id="inputState" class="form-control">
         <option selected>Laguna</option>
         <option>Quezon</option>
       </select>
