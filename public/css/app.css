@@ -10466,7 +10466,12 @@ a.text-dark:focus {
   }
 }
 
+body {
+  margin-top: 50px;
+}
+
 #footer {
+  font-size: 10px;
   position: relative;
   bottom: 0px;
   margin-top: 50px;
@@ -10485,6 +10490,7 @@ a.text-dark:focus {
   color: #ffffff;
   font-weight: bold;
   background: #3490DC;
+  position: absolute;
 }
 
 .nav-link {
@@ -10499,10 +10505,6 @@ a.text-dark:focus {
 .btn {
   background: #3490DC;
   color: #ffffff;
-}
-
-.dropdown-menu {
-  border: 1px solid black;
 }
 
 #search {

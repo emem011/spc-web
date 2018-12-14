@@ -1,4 +1,8 @@
+body {
+  margin-top: 50px;
+}
 #footer{
+  font-size: 10px;
   position:relative;
   bottom: 0px;
   margin-top: 50px;
@@ -17,8 +21,10 @@
   color: #ffffff;
   font-weight: bold;
   background: #3490DC;
+  position: absolute;
 }
 .nav-link{
+
   text-decoration: none;
   color: #ffffff;
 }

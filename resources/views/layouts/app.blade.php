@@ -14,17 +14,14 @@
     <div>
 
     </div>
-    <div class="container">
+    <div class="container-fluid">
     @if (Request::is('form'))
       @include('inc.showcase')
     @endif
 <br>
       <div class="row">
-        <div class="col-sm-8 col-lg-8">
+        <div class="col-md-8 offset-md-2">
         @yield('content')
-        </div>
-        <div class="col-md-4 col-lg-4">
-        @include('inc.sidebar')
         </div>
       </div>
     </div>
